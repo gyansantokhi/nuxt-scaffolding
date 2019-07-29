@@ -66,7 +66,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ["Open+Sans:300,400,600&display=swap"] //Loads Lato font with weights 400 and 700
+      families: ["Open+Sans:300,400,600&display=swap"] //Loads Open Sans font with weights 400 and 700
     }
   }
 };

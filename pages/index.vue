@@ -2,7 +2,8 @@
   <section>
     <div>
       <Logo :width="350"/>
-      <h1 class="title">NUXT
+      <h1 class="title">
+        NUXT
         <span class="green">JS</span>
       </h1>
       <h2 class="subtitle">Starter for CodeSandBox</h2>
@@ -30,8 +31,7 @@ export default {
 
 <style scoped>
 .title {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Open Sans";
   display: block;
   font-weight: 400;
   font-size: 100px;
