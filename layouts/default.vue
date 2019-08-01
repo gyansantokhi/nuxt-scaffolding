@@ -4,64 +4,41 @@
   </div>
 </template>
 
-<style>
-html {
-  font-family: "Open Sans";
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-variant-ligatures: no-common-ligatures;
-  box-sizing: border-box;
-  color: #2E495E;
-}
+<style lang="stylus">
+html
+  font-family 'Open Sans'
+  font-size 16px
+  word-spacing 1px
+  -ms-text-size-adjust 100%
+  -webkit-text-size-adjust 100%
+  -moz-osx-font-smoothing grayscale
+  -webkit-font-smoothing antialiased
+  -webkit-tap-highlight-color rgba(0, 0, 0, 0)
+  font-variant-ligatures no-common-ligatures
+  box-sizing border-box
+  color $green
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-  margin: 0;
-}
+*, *:before, *:after
+  box-sizing border-box
+  margin 0
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+.container
+  min-height 100vh
+  display flex
+  justify-content center
+  align-items center
+  text-align center
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #00C48D;
-  color: #00C48D;
-  text-decoration: none;
-  padding: 10px 30px;
-  display: inline-flex;
-  align-self: center;
-}
+.button--grey
+  display inline-block
+  border-radius 4px
+  border 1px solid #2E495E
+  color #2E495E
+  text-decoration none
+  padding 10px 30px
+  margin-left 15px
 
-.button--green:hover {
-  color: #fff;
-  background-color: #00C48D;
-}
-
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #2E495E;
-  color: #2E495E;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
-
-.button--grey:hover {
-  color: #fff;
-  background-color: #2E495E;
-}
+  &:hover
+    color #fff
+    background-color #2E495E
 </style>

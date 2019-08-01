@@ -8,7 +8,7 @@
       </h1>
       <h2 class="subtitle">Starter for CodeSandBox</h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation
+        <a href="https://nuxtjs.org/" target="_blank" class="button--grey">Documentation
           <IconLink/>
         </a>
         <NLink to="/about" class="button--grey">About</NLink>
@@ -29,29 +29,28 @@ export default {
 };
 </script>
 
-<style scoped>
-.title {
-  font-family: "Open Sans";
-  display: block;
-  font-weight: 400;
-  font-size: 100px;
-  color: #2E495E;
-  letter-spacing: 1px;
-  font-size: 6em;
-}
-.green {
-  color: #00C48D;
-}
+<style scoped lang="stylus">
+@import '../assets/vars/*'
 
-.subtitle {
-  font-weight: 300;
-  font-size: 3em;
-  color: #2E495E;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
+.title
+  font-family 'Open Sans'
+  display block
+  font-weight 400
+  font-size 100px
+  letter-spacing 1px
+  font-size 6em
+  color $lightgreen
 
-.links {
-  padding-top: 15px;
-}
+.green
+  color $green
+
+.subtitle
+  font-weight 300
+  font-size 3em
+  color #2E495E
+  word-spacing 5px
+  padding-bottom 15px
+
+.links
+  padding-top 15px
 </style>
